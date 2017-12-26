@@ -5,7 +5,7 @@ Improve Your English by experiencing our Accent Reduction Course to learn Englis
 I wrote this project as a beginner in React world.
 
 ## Usage
-[https://khiemdoancrazy.github.io/PronunciationWorkshopVietsub](https://khiemdoancrazy.github.io/PronunciationWorkshopVietsub)
+[https://khiemdoan.github.io/pronunciationworkshopvietsub](https://khiemdoan.github.io/pronunciationworkshopvietsub/)
 
 ## Development
 
@@ -18,7 +18,7 @@ npm install
 Run dev:
 
 ```
-npm run dev
+npm run start
 ```
 
 Run build:

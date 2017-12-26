@@ -7,6 +7,6 @@ export class DocumentItem extends React.Component {
 			<li>
 				<a target="_blank" href={this.props.href}>{this.props.title}</a>
 			</li>
-		);
+		)
 	}
 }

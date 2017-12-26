@@ -14,6 +14,6 @@ export class Home extends React.Component {
 				<DocumentList />
 				<Footer />
 			</div>
-		);
+		)
 	}
 }

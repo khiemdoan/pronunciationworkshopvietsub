@@ -2,10 +2,6 @@ import React from 'react';
 
 export class VideoPlayer extends React.Component {
 
-	constructor() {
-		super()
-	}
-
 	componentDidMount() {
 		this.refs.video.onended = this.videoEnded
 	}
@@ -22,7 +18,7 @@ export class VideoPlayer extends React.Component {
 			<div className="player">
 				<video controls ref="video" style={{ width: '100%', height: '100%' }}></video>
 			</div>
-		);
+		)
 	}
 
 	videoEnded() {

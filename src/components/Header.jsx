@@ -7,6 +7,6 @@ export class Header extends React.Component {
 			<div className="header">
 				<h1>Pronunciation Workshop Vietsub</h1>
 			</div>
-		);
+		)
 	}
 }

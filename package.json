@@ -1,39 +1,27 @@
 {
   "name": "pronunciationworkshopvietsub",
-  "version": "1.0.0",
-  "description": "Pronunciation Workshop Vietsub",
-  "main": "src/index.js",
-  "scripts": {
-    "build": "node_modules/.bin/webpack -p --progress --colors",
-    "dev": "node_modules/.bin/webpack-dev-server --progress --colors",
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "2.0.0",
   "keywords": [
     "Pronunciation",
     "Workshop",
     "Vietsub"
   ],
   "author": "Khiem Doan",
-  "license": "ISC",
+  "description": "Pronunciation Workshop Vietsub",
+  "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
   },
-  "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.4",
-    "express": "^4.15.3",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "file-loader": "^0.11.2",
-    "html-webpack-plugin": "^2.29.0",
-    "path": "^0.12.7",
-    "react-hot-loader": "^3.0.0-beta.7",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "config": {
+    "buildPath": "./docs"
   }
 }

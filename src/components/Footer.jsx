@@ -8,6 +8,6 @@ export class Footer extends React.Component {
 					Improve Your English by experiencing our Accent Reduction Course to learn English Pronunciation and American Accent.
 				</p>
 			</div>
-		);
+		)
 	}
 }

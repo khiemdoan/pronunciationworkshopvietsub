@@ -15,8 +15,8 @@ export class Playlist extends React.Component {
 					title={video.name}
 					url={video.file}
 					onClick={() => this.handleClick(index)} />
-			);
-		});
+			)
+		})
 
 		return (
 			<div className="playlist">
@@ -25,6 +25,6 @@ export class Playlist extends React.Component {
 				</div>
 				{items}
 			</div>
-		);
+		)
 	}
 }

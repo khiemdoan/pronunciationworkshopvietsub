@@ -9,7 +9,7 @@ export class PlaylistItem extends React.Component {
 					{this.props.title}
 				</a>
 			</div>
-		);
+		)
 	}
 
 	handleClick(e) {

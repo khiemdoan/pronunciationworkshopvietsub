@@ -6,7 +6,7 @@ export class DocumentList extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			documents: new Array()
+			documents: []
 		}
 	}
 
@@ -17,15 +17,15 @@ export class DocumentList extends React.Component {
 			return response.json()
 		}).then(function (array) {
 			self.setState({ documents: array })
-		});
+		})
 	}
 
 	render() {
 		const items = this.state.documents.map((doc, index) => {
 			return (
 				<DocumentItem key={index} title={doc.name} href={doc.file} />
-			);
-		});
+			)
+		})
 
 		return (
 			<div className="documents">
@@ -34,6 +34,6 @@ export class DocumentList extends React.Component {
 					{items}
 				</ul>
 			</div>
-		);
+		)
 	}
 }

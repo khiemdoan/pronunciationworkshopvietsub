@@ -11,7 +11,7 @@ export class PlayerWrapper extends React.Component {
 			currentIndex: 0,
 			currentUrlVideo: "",
 			autoplay: false,
-		};
+		}
 	}
 
 	componentDidMount() {
@@ -19,13 +19,13 @@ export class PlayerWrapper extends React.Component {
 		// get videos data
 		fetch('videos.json').then(function (response) {
 			return response.json()
-		}).then(function (array) {
+		}).then(function (videos) {
 			self.setState({
-				videos: array,
+				videos: videos,
 				currentIndex: 0,
-				currentUrlVideo: array[0].file,
+				currentUrlVideo: videos[0].file,
 			})
-		});
+		})
 	}
 
 	changeVideo(index) {
@@ -34,7 +34,7 @@ export class PlayerWrapper extends React.Component {
 				currentIndex: index,
 				currentUrlVideo: this.state.videos[index].file,
 				autoplay: true,
-			});
+			})
 		}
 	}
 
@@ -46,7 +46,7 @@ export class PlayerWrapper extends React.Component {
 				currentIndex: currentIndex,
 				currentUrlVideo: this.props.videos[currentIndex].file,
 				autoplay: true,
-			});
+			})
 		}
 	}
 
@@ -61,6 +61,6 @@ export class PlayerWrapper extends React.Component {
 					changeVideo={(index) => this.changeVideo(index)}
 					nextVideo={() => this.nextVideo()} />
 			</div>
-		);
+		)
 	}
 }
