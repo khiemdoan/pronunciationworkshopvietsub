@@ -1,5 +1,7 @@
 import React from 'react'
+import { Segment, Header, List, Icon } from 'semantic-ui-react'
 import { DocumentItem } from './DocumentItem'
+
 
 export class DocumentList extends React.Component {
 
@@ -28,12 +30,18 @@ export class DocumentList extends React.Component {
 		})
 
 		return (
-			<div className="documents">
-				<h2>Documents</h2>
-				<ul>
+			<Segment vertical>
+				<Header size='large' textAlign="left">
+					<Icon name='file pdf outline' color='red' />
+					<Header.Content>
+						Documents
+					</Header.Content>
+				</Header>
+
+				<List ordered>
 					{items}
-				</ul>
-			</div>
+				</List>
+			</Segment>
 		)
 	}
 }

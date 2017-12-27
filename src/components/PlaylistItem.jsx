@@ -1,14 +1,14 @@
 import React from 'react'
+import { List } from 'semantic-ui-react'
+
 
 export class PlaylistItem extends React.Component {
 
 	render() {
 		return (
-			<div className="playlist-item">
-				<a href={this.props.url} onClick={(e) => this.handleClick(e)}>
-					{this.props.title}
-				</a>
-			</div>
+			<List.Item as='a' href={this.props.url} onClick={(e) => this.handleClick(e)}>
+				{this.props.title}
+			</List.Item>
 		)
 	}
 

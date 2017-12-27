@@ -1,6 +1,8 @@
 import React from 'react'
+import { Segment, Grid } from 'semantic-ui-react'
 import { VideoPlayer } from './VideoPlayer'
 import { Playlist } from './Playlist'
+
 
 export class PlayerWrapper extends React.Component {
 
@@ -52,15 +54,21 @@ export class PlayerWrapper extends React.Component {
 
 	render() {
 		return (
-			<div className="player-wrapper">
-				<VideoPlayer
-					url={this.state.currentUrlVideo}
-					autoplay={this.state.autoplay} />
-				<Playlist
-					videos={this.state.videos}
-					changeVideo={(index) => this.changeVideo(index)}
-					nextVideo={() => this.nextVideo()} />
-			</div>
+			<Segment vertical>
+				<Grid stackable celled='internally'>
+					<Grid.Column width={11}>
+						<VideoPlayer
+							url={this.state.currentUrlVideo}
+							autoplay={this.state.autoplay} />
+					</Grid.Column>
+					<Grid.Column width={5}>
+						<Playlist
+							videos={this.state.videos}
+							changeVideo={(index) => this.changeVideo(index)}
+							nextVideo={() => this.nextVideo()} />
+					</Grid.Column>
+				</Grid>
+			</Segment>
 		)
 	}
 }

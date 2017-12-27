@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import { Container, Header, Icon } from 'semantic-ui-react'
+
 
 export class VideoPlayer extends React.Component {
 
@@ -15,9 +17,15 @@ export class VideoPlayer extends React.Component {
 
 	render() {
 		return (
-			<div className="player">
+			<Container>
+				<Header size='large'>
+					<Icon name='film' color='green' />
+					<Header.Content>
+						Video
+    			</Header.Content>
+				</Header>
 				<video controls ref="video" style={{ width: '100%', height: '100%' }}></video>
-			</div>
+			</Container>
 		)
 	}
 

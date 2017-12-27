@@ -1,5 +1,7 @@
 import React from 'react'
+import { Container, Header, List, Icon } from 'semantic-ui-react'
 import { PlaylistItem } from './PlaylistItem'
+
 
 export class Playlist extends React.Component {
 
@@ -19,12 +21,17 @@ export class Playlist extends React.Component {
 		})
 
 		return (
-			<div className="playlist">
-				<div>
-					<h2>Playlist</h2>
-				</div>
-				{items}
-			</div>
+			<Container>
+				<Header size='large'>
+					<Icon name='list' color='blue' />
+					<Header.Content>
+						Playlist
+					</Header.Content>
+				</Header>
+				<List>
+					{items}
+				</List>
+			</Container>
 		)
 	}
 }
