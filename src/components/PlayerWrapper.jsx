@@ -43,12 +43,8 @@ export class PlayerWrapper extends React.Component {
 	nextVideo() {
 		let currentIndex = this.state.currentIndex;
 		if (currentIndex < this.state.videos.length) {
-			currentIndex++;
-			this.setState({
-				currentIndex: currentIndex,
-				currentUrlVideo: this.props.videos[currentIndex].file,
-				autoplay: true,
-			})
+			currentIndex++
+			this.changeVideo(currentIndex)
 		}
 	}
 
@@ -59,13 +55,13 @@ export class PlayerWrapper extends React.Component {
 					<Grid.Column width={11}>
 						<VideoPlayer
 							url={this.state.currentUrlVideo}
-							autoplay={this.state.autoplay} />
+							autoplay={this.state.autoplay}
+							nextVideo={() => this.nextVideo()} />
 					</Grid.Column>
 					<Grid.Column width={5}>
 						<Playlist
 							videos={this.state.videos}
-							changeVideo={(index) => this.changeVideo(index)}
-							nextVideo={() => this.nextVideo()} />
+							changeVideo={(index) => this.changeVideo(index)} />
 					</Grid.Column>
 				</Grid>
 			</Segment>

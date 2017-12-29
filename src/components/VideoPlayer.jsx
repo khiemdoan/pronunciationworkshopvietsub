@@ -1,17 +1,14 @@
 import React from 'react'
 import { Container, Header, Icon } from 'semantic-ui-react'
+import { Player, ControlBar, PlaybackRateMenuButton } from 'video-react'
+import '../../node_modules/video-react/dist/video-react.css'
 
 
 export class VideoPlayer extends React.Component {
 
-	componentDidMount() {
-		this.refs.video.onended = this.videoEnded
-	}
-
-	componentWillReceiveProps(nextProps) {
-		this.refs.video.src = nextProps.url
-		if (nextProps.autoplay) {
-			this.refs.video.play()
+	componentDidUpdate(prevProps, prevState) {
+		if (prevProps.url !== this.props.url) {
+			this.refs.player.load()
 		}
 	}
 
@@ -24,12 +21,15 @@ export class VideoPlayer extends React.Component {
 						Video
     			</Header.Content>
 				</Header>
-				<video controls ref="video" style={{ width: '100%', height: '100%' }}></video>
+				<Player ref='player' autoPlay={this.props.autoplay} onEnded={this.props.nextVideo} src={this.props.url}>
+					<ControlBar autoHide={true}>
+						<PlaybackRateMenuButton
+							rates={[2.0, 1.5, 1.0, 0.7, 0.5]}
+							order={7.1}
+						/>
+					</ControlBar>
+				</Player>
 			</Container>
 		)
-	}
-
-	videoEnded() {
-		this.props.nextVideo()
 	}
 }
