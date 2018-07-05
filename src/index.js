@@ -4,7 +4,5 @@ import registerServiceWorker from './registerServiceWorker'
 import 'semantic-ui-css/semantic.min.css'
 import { Home } from './containers/Home'
 
-
-const renderMethod = !!module.hot ? ReactDOM.render : ReactDOM.hydrate
-renderMethod(<Home />, document.getElementById('root'))
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();
