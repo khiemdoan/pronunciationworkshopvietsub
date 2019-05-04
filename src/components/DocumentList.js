@@ -1,6 +1,5 @@
 import React from 'react'
 import { Segment, Header, List, Icon } from 'semantic-ui-react'
-import { DocumentItem } from './DocumentItem'
 
 
 export class DocumentList extends React.Component {
@@ -25,7 +24,9 @@ export class DocumentList extends React.Component {
 	render() {
 		const items = this.state.documents.map((doc, index) => {
 			return (
-				<DocumentItem key={index} title={doc.name} href={doc.file} />
+				<List.Item key={index} as='a' target="_blank" href={doc.file}>
+					{doc.name}
+				</List.Item>
 			)
 		})
 

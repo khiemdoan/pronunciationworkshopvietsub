@@ -1,33 +1,47 @@
 {
   "name": "pronunciationworkshopvietsub",
-  "version": "2.2.1",
-  "keywords": [
+	"version": "2.2.2",
+	"keywords": [
     "Pronunciation",
     "Workshop",
     "Vietsub"
-  ],
-  "author": "Khiem Doan",
+	],
+	"author": "Khiem Doan",
   "description": "Pronunciation Workshop Vietsub",
   "homepage": "https://khiemdoan.github.io/pronunciationworkshopvietsub",
   "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "video-react": "^0.13.7"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "redux": "^4.0.0",
-    "semantic-ui-css": "^2.3.2",
-    "semantic-ui-react": "^0.81.3",
-    "video-react": "^0.11.2"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^2.0.1"
   }
 }
