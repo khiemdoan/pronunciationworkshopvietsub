@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.js": "/pronunciationworkshopvietsub/static/js/main.8a16b646.chunk.js",
-    "main.js.map": "/pronunciationworkshopvietsub/static/js/main.8a16b646.chunk.js.map",
-    "runtime~main.js": "/pronunciationworkshopvietsub/static/js/runtime~main.95d240b3.js",
-    "runtime~main.js.map": "/pronunciationworkshopvietsub/static/js/runtime~main.95d240b3.js.map",
-    "static/css/2.785c8d11.chunk.css": "/pronunciationworkshopvietsub/static/css/2.785c8d11.chunk.css",
-    "static/js/2.a645fdfd.chunk.js": "/pronunciationworkshopvietsub/static/js/2.a645fdfd.chunk.js",
-    "static/js/2.a645fdfd.chunk.js.map": "/pronunciationworkshopvietsub/static/js/2.a645fdfd.chunk.js.map",
+    "main.css": "/pronunciationworkshopvietsub/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/pronunciationworkshopvietsub/static/js/main.c7102297.chunk.js",
+    "main.js.map": "/pronunciationworkshopvietsub/static/js/main.c7102297.chunk.js.map",
+    "runtime-main.js": "/pronunciationworkshopvietsub/static/js/runtime-main.5be7f1d5.js",
+    "runtime-main.js.map": "/pronunciationworkshopvietsub/static/js/runtime-main.5be7f1d5.js.map",
+    "static/css/2.7a275d46.chunk.css": "/pronunciationworkshopvietsub/static/css/2.7a275d46.chunk.css",
+    "static/js/2.2356def0.chunk.js": "/pronunciationworkshopvietsub/static/js/2.2356def0.chunk.js",
+    "static/js/2.2356def0.chunk.js.map": "/pronunciationworkshopvietsub/static/js/2.2356def0.chunk.js.map",
+    "static/js/3.14fccdcf.chunk.js": "/pronunciationworkshopvietsub/static/js/3.14fccdcf.chunk.js",
+    "static/js/3.14fccdcf.chunk.js.map": "/pronunciationworkshopvietsub/static/js/3.14fccdcf.chunk.js.map",
     "index.html": "/pronunciationworkshopvietsub/index.html",
-    "precache-manifest.c270c0d4c8aaf93194e14919b86dab45.js": "/pronunciationworkshopvietsub/precache-manifest.c270c0d4c8aaf93194e14919b86dab45.js",
-    "service-worker.js": "/pronunciationworkshopvietsub/service-worker.js",
-    "static/css/2.785c8d11.chunk.css.map": "/pronunciationworkshopvietsub/static/css/2.785c8d11.chunk.css.map",
-    "static/media/semantic.min.css": "/pronunciationworkshopvietsub/static/media/outline-icons.ef60a4f6.woff"
-  }
+    "static/css/2.7a275d46.chunk.css.map": "/pronunciationworkshopvietsub/static/css/2.7a275d46.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/pronunciationworkshopvietsub/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.2356def0.chunk.js.LICENSE.txt": "/pronunciationworkshopvietsub/static/js/2.2356def0.chunk.js.LICENSE.txt",
+    "static/media/semantic.css": "/pronunciationworkshopvietsub/static/media/outline-icons.f4f60ace.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5be7f1d5.js",
+    "static/css/2.7a275d46.chunk.css",
+    "static/js/2.2356def0.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.c7102297.chunk.js"
+  ]
 }
