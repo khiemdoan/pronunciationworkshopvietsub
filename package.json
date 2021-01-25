@@ -1,33 +1,39 @@
 {
   "name": "pronunciationworkshopvietsub",
-	"version": "2.2.2",
-	"keywords": [
+  "version": "2.3.0",
+  "keywords": [
     "Pronunciation",
     "Workshop",
     "Vietsub"
-	],
-	"author": "Khiem Doan",
+  ],
+  "author": "Khiem Doan",
   "description": "Pronunciation Workshop Vietsub",
   "homepage": "https://khiemdoan.github.io/pronunciationworkshopvietsub",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.86.0",
-    "video-react": "^0.13.7"
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "fomantic-ui-css": "^2.8.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-player": "^2.8.1",
+    "react-scripts": "4.0.1",
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -42,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^3.1.0"
   }
 }

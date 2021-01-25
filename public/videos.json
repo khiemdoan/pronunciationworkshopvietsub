@@ -1,66 +1,66 @@
 [
-	{
-		"name": "s01. R and W",
-		"file": "videos/s01_R_and_W.mp4"
-	},
-	{
-		"name": "s02. Voicing, S and Z",
-		"file": "videos/s02_Voicing_S_and_Z.mp4"
-	},
-	{
-		"name": "s03. TH, Voiced T",
-		"file": "videos/s03_TH_Voiced_T.mp4"
-	},
-	{
-		"name": "s04. F and V, Sh and Voiced SH",
-		"file": "videos/s04_F_and_V_Sh_and_Voiced_SH.mp4"
-	},
-	{
-		"name": "s05. L",
-		"file": "videos/s05_L.mp4"
-	},
-	{
-		"name": "s06. Word Endings",
-		"file": "videos/s06_Word_Endings.mp4"
-	},
-	{
-		"name": "s07. DG and Ch, H",
-		"file": "videos/s07_DG_and_Ch_H.mp4"
-	},
-	{
-		"name": "s08. Vowel Overview, I and EE",
-		"file": "videos/s08_Vowel_Overview_I_and_EE.mp4"
-	},
-	{
-		"name": "s09. OW and AE",
-		"file": "videos/s09_OW_and_AE.mp4"
-	},
-	{
-		"name": "s10. OO, UH, EH",
-		"file": "videos/s10_OO_UH_EH.mp4"
-	},
-	{
-		"name": "s11. AU, AH, A",
-		"file": "videos/s11_AU_AH_A.mp4"
-	},
-	{
-		"name": "s12. Tongue Twisters",
-		"file": "videos/s12_Tongue_Twisters.mp4"
-	},
-	{
-		"name": "s13. Phrase Reductions, Intonation",
-		"file": "videos/s13_Phrase_Reductions_Intonation.mp4"
-	},
-	{
-		"name": "s14. Reading Passages",
-		"file": "videos/s14_Reading_Passages.mp4"
-	},
-	{
-		"name": "s15a. Reading Passages",
-		"file": "videos/s15a_Reading_Passages.mp4"
-	},
-	{
-		"name": "s15b. Reading Passages",
-		"file": "videos/s15b_Reading_Passages.mp4"
-	}
+  {
+    "name": "s01. R and W",
+    "file": "videos/s01_R_and_W.mp4"
+  },
+  {
+    "name": "s02. Voicing, S and Z",
+    "file": "videos/s02_Voicing_S_and_Z.mp4"
+  },
+  {
+    "name": "s03. TH, Voiced T",
+    "file": "videos/s03_TH_Voiced_T.mp4"
+  },
+  {
+    "name": "s04. F and V, Sh and Voiced SH",
+    "file": "videos/s04_F_and_V_Sh_and_Voiced_SH.mp4"
+  },
+  {
+    "name": "s05. L",
+    "file": "videos/s05_L.mp4"
+  },
+  {
+    "name": "s06. Word Endings",
+    "file": "videos/s06_Word_Endings.mp4"
+  },
+  {
+    "name": "s07. DG and Ch, H",
+    "file": "videos/s07_DG_and_Ch_H.mp4"
+  },
+  {
+    "name": "s08. Vowel Overview, I and EE",
+    "file": "videos/s08_Vowel_Overview_I_and_EE.mp4"
+  },
+  {
+    "name": "s09. OW and AE",
+    "file": "videos/s09_OW_and_AE.mp4"
+  },
+  {
+    "name": "s10. OO, UH, EH",
+    "file": "videos/s10_OO_UH_EH.mp4"
+  },
+  {
+    "name": "s11. AU, AH, A",
+    "file": "videos/s11_AU_AH_A.mp4"
+  },
+  {
+    "name": "s12. Tongue Twisters",
+    "file": "videos/s12_Tongue_Twisters.mp4"
+  },
+  {
+    "name": "s13. Phrase Reductions, Intonation",
+    "file": "videos/s13_Phrase_Reductions_Intonation.mp4"
+  },
+  {
+    "name": "s14. Reading Passages",
+    "file": "videos/s14_Reading_Passages.mp4"
+  },
+  {
+    "name": "s15a. Reading Passages",
+    "file": "videos/s15a_Reading_Passages.mp4"
+  },
+  {
+    "name": "s15b. Reading Passages",
+    "file": "videos/s15b_Reading_Passages.mp4"
+  }
 ]
